@@ -1,0 +1,119 @@
+html, body {
+  background: #e4e4e4;
+  background: -webkit-linear-gradient(#dcdcdc, #e0e0e0);
+  background: -o-linear-gradient(#dcdcdc, #e0e0e0);
+  background: -moz-linear-gradient(#dcdcdc, #e0e0e0);
+  background: linear-gradient(#dcdcdc, #e0e0e0);
+  height: 100%;
+  font-family: 'Roboto Mono', monospace;
+}
+
+input[type="text"] {
+  font-family: inherit;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#calculator {
+  background: #1f1f1f;
+  background: -webkit-linear-gradient(#151515, #1f1f1f);
+  background: -o-linear-gradient(#151515, #1f1f1f);
+  background: -moz-linear-gradient(#151515, #1f1f1f);
+  background: linear-gradient(#151515, #1f1f1f);
+  color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+  width: 292px;
+  padding: 12px 10px 12px 10px;
+  overflow: hidden;
+}
+
+#calculator-top {
+  background-color: #151515;
+  border: 1px solid #252525;
+  border-bottom: 0px;
+  width: 290px;
+  height: 50px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 45px;
+}
+
+#input-fields {
+  background: #1f1f1f;
+  background: -webkit-linear-gradient(#383838, #1f1f1f);
+  background: -o-linear-gradient(#383838, #1f1f1f);
+  background: -moz-linear-gradient(#383838, #1f1f1f);  
+  background: linear-gradient(to bottom right, #383838, #1f1f1f);
+}
+
+#all-input, #new-input {
+  color: #f8f8f8;
+  border: none;
+  width: 292px;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+#all-input {
+  background-color: rgba(0, 0, 0, 0);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  font-size: 16px;
+  font-weight: 300;
+  word-spacing: -5px;
+  padding: 26px 17px 10px 16px;
+}
+
+#new-input {
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 6px 14px 24px 14px;
+}
+
+.btn {
+  background-color: #151515;
+  color: #b5b5b5;
+  border: 1px solid #252525;
+  height: 55px;
+  width: 73px;
+  margin: 0px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 55px;
+  float: left;
+  box-sizing: border-box;
+  cursor: pointer;
+  /* this prevents the user from selecting the text when clicking fast */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+}
+
+.btn:hover {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(185, 185, 185, 0.82);
+}
+
+#btn-zero {
+  width: 146px;
+}
+
+#btn-result {
+  height: 110px;
+  line-height: 108px;
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+}

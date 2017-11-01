@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Calculator</title>
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="center">
+    <div id="calculator">
+      <div id="calculator-top">CALCULATOR</div>
+      <div id=input-fields>
+        <input type="text" value="0" id="all-input" readonly>
+        <input type="text" value="0" id="new-input" readonly>
+      </div>
+      <div class="btn" id="btn-delete-all">C</div>
+      <div class="btn" id="btn-delete-prev">CE</div>
+      <div class="btn btn-operator">&divide;</div>
+      <div class="btn btn-operator">&times;</div>
+      <div class="btn btn-num">7</div>
+      <div class="btn btn-num">8</div>
+      <div class="btn btn-num">9</div>
+      <div class="btn btn-operator">-</div>
+      <div class="btn btn-num">4</div>
+      <div class="btn btn-num">5</div>
+      <div class="btn btn-num">6</div>
+      <div class="btn btn-operator">+</div>
+      <div class="btn btn-num">3</div>
+      <div class="btn btn-num">2</div>
+      <div class="btn btn-num">1</div>
+      <div class="btn btn-num" id="btn-zero">0</div>
+      <div class="btn" id="btn-decimal">.</div>
+      <div class="btn" id="btn-result">=</div>
+    </div>
+  </div>
+  
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
